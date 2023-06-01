@@ -1,4 +1,3 @@
-
 # paython-Instacart
 ### Customizing Google Analytics code
 
