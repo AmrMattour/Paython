@@ -1,43 +1,24 @@
 # paython-Instacart
-### Customizing Google Analytics code
+This project uses Python via Jupyter notebooks to conduct sales and marketing profile analysees using actual Instacart sales data and ficticious customer data as part of CareerFoundry's Data Analytics Immersion program.
 
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
+Instacart, an online grocery store that operates through an app, want to uncover more information about their sales patterns. Their marketing department would like an initial data and exploratory analysis of some of their data in order to derive insights and suggest strategies for better segmentation based on the provided criteria. Establish preliminary marketing groups and basic sales patterns within these groups, as well as over-all departmental patterns.
 
-### Overriding GitHub-generated URLs
+Tools: Python (pandas, NumPy, SciPy, Seaborn), Jupyter notebooks, Microsoft Excel
+Skills: data wrangling, data merging, variable derivation, grouping, aggregations, python visualzations, population flow, Excel reporting
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+The data set, provided by Instacart and CareerFoundry, contains:
+31 million records from January 1, 2017 to April 1, 2020
+3,421,083 orders 
+206,209 customers
+49,693 products
+21 departments
 
-1. Look at [the template source](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+Links
+Original data sources:
+https://www.instacart.com/datasets/grocery-shopping-2017
+https://s3.amazonaws.com/coach-courses-us/public/courses/data-immersion/A4/A4_Data_Assets/customers.zip
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+Final report:
+https://github.com/AmrMattour/paython-Instacart.
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/cayman/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+Skills: Presentation Skills · Pattern Recognition · Key Metrics · Data Reporting · Data Manipulation · Written Communication · Spreadsheets · Requirements Gathering · Presentations · Mathematics · Extract, Transform, Load (ETL) · Databases · Data Warehousing · Data Science · Data Collection · Computer Science · Business Intelligence (BI) · Business Insights · Applied Mathematics · Data Analytics · Analytical Skills · Oral Communication · Statistics · Analytics
